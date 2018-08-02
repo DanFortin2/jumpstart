@@ -31,6 +31,9 @@ nav span {
   padding-top: 11.85rem;
   padding-bottom: 11.85rem;
   background-image: url("../images/jumbotron-bike.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
