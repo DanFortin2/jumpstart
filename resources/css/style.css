@@ -35,6 +35,11 @@ p .grey {
 img {
   width: 100%;
   height: 100%;
+  overflow: hidden;
+}
+
+.image-container {
+  overflow: hidden;
 }
 
 
@@ -54,10 +59,13 @@ nav span {
 
 .image-container img {
   opacity: 0.75;
+  overflow: hidden;
 }
 
 .image-container img:hover{
   opacity: 1;
+  transform: scale(1.3);
+  transition: opacity 0.5s linear, transform 0.5s linear;
 }
 
 @media only screen and (max-width: 620px) {
@@ -73,11 +81,35 @@ nav span {
 .jumbotron {
   padding-top: 11.85rem;
   padding-bottom: 11.85rem;
-  background-image: url("../images/jumbotron-bike.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron-bike {
+background-image: url("../images/jumbotron-bike.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.jumbotron-beer {
+background-image: url("../images/jumbotron-beer.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.jumbotron-flowers {
+background-image: url("../images/jumbotron-flowers.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.jumbotron-bag {
+background-image: url("../images/jumbotron-duffel.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 
 .jumbotron h1 {
