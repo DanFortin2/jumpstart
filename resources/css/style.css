@@ -34,7 +34,9 @@ p .grey {
 
 img {
   width: 100%;
+  height: 100%;
 }
+
 
 /*Navigation Bar*/
 #current span {
@@ -56,6 +58,14 @@ nav span {
 
 .image-container img:hover{
   opacity: 1;
+}
+
+@media only screen and (max-width: 620px) {
+  .navbar {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 /*Jumbotron*/
@@ -108,6 +118,15 @@ nav span {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
+@media only screen and (max-width: 750px) {
+  .jumbotron p {
+    width: 100%;
+  }
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
+}
+
 /* featured and projects*/
 
 .featured, .projects {
@@ -120,6 +139,18 @@ nav span {
 
 .projects {
   margin-bottom: 5.85rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .featured, .projects {
+    margin: 0 5rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .featured, .projects {
+    margin: 0;
+  }
 }
 
 /*having trouble*/
@@ -140,4 +171,10 @@ nav span {
 .trouble-text {
   width: 42rem;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 700px) {
+  .trouble-text {
+    width: 100%;
+  }
 }
