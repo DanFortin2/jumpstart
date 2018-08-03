@@ -9,7 +9,32 @@ body, *, a, span {
   font-family: "Open Sans", sans-serif;
 }
 
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
 
+.blue {
+  color: #399bd1;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+li, p {
+  line-height: 1.4rem;
+}
+
+p .grey {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+img {
+  width: 100%;
+}
 
 /*Navigation Bar*/
 #current span {
@@ -23,6 +48,14 @@ body, *, a, span {
 nav span {
   font-weight: bold;
   font-size: 1.1rem;
+}
+
+.image-container img {
+  opacity: 0.75;
+}
+
+.image-container img:hover{
+  opacity: 1;
 }
 
 /*Jumbotron*/
@@ -73,4 +106,18 @@ nav span {
 
 .btn-primary:active {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+/* featured and projects*/
+
+.featured, .projects {
+  margin: auto 13rem;
+}
+
+.featured h2 {
+  margin-bottom: 20px;
+}
+
+.projects {
+  margin-bottom: 5.85rem;
 }
