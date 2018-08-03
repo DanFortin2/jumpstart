@@ -111,7 +111,7 @@ nav span {
 /* featured and projects*/
 
 .featured, .projects {
-  margin: auto 13rem;
+  margin: 0 13rem;
 }
 
 .featured h2 {
@@ -120,4 +120,24 @@ nav span {
 
 .projects {
   margin-bottom: 5.85rem;
+}
+
+/*having trouble*/
+
+.trouble {
+  text-align: center;
+  padding-top: 5.2rem;
+  padding-bottom: 5.2rem;
+  background-color: #f3f3f3;
+}
+
+.large-slogan {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+.trouble-text {
+  width: 42rem;
+  margin: 0 auto;
 }
